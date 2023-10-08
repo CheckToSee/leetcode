@@ -1,7 +1,6 @@
 class Solution:
     def removeDuplicates(nums):
         numsLength = len(nums)
-        trail = 0
         k = 0
         dupCheck = []
 
@@ -10,7 +9,5 @@ class Solution:
                 dupCheck.append(nums[i])
                 nums[k] = dupCheck[k]
                 k += 1
-            else:
-                trail += 1
 
         return k
