@@ -6,7 +6,7 @@ class Solution:
         pos = []
 
         for i in range(length):
-            if s[i] in vowels:
+            if s[i].lower() in vowels:
                 pos.append(i)
                 v_in_word.append(s[i])
         if pos:
