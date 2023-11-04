@@ -13,13 +13,13 @@ class DynamicArray:
         return
 
     def popback(self) -> int:
-        return
+        return 1
 
     def resize(self) -> None:
         return
 
     def getSize(self) -> int:
-        return
+        return 1
 
     def getCapacity(self) -> int:
-        return
+        return 1
